@@ -9,7 +9,7 @@
 }
 
 html { 
-	background: url("../../../images/background.jpeg") no-repeat center center fixed; 
+	background: url("../../../assets/images/background.jpeg") no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -249,7 +249,7 @@ nav .content .links{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-    background-image: url('bg-pattern-card.svg');
+    background-image: url('../../../assets/images/team/common/bg-pattern-card.svg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
