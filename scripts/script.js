@@ -27,4 +27,4 @@ function preloadImages() {
         images[i].src = preloadImages.arguments[i];
     }
 }
-preloadImages("logo.v1.png", "politehnica.jpg", "service.png", "assets/background.jpeg");
+preloadImages("assets/images/logo.v1.png", "assets/images/politehnica.jpg", "assets/images/service.png", "assets/images/background.jpeg");
