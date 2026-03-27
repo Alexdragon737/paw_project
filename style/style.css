@@ -201,7 +201,7 @@ label.logo{
 }
 
 .bg-box {
-	text-color: #ffffff;
+	color: #ffffff;
 }
 
 .box {
@@ -294,7 +294,7 @@ footer {
 
 /*Services Page styling starts here*/
 .services-box {
-	align: left;
+	text-align: left;
 	padding: 30px;
 	background-color: rgba(0, 0, 0, 0.5);
 	padding: 20px;
