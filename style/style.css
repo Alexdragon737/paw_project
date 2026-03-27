@@ -12,18 +12,27 @@ body{
 }
 
 html { 
-	background: url("../images/background.jpeg") no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	blur: 8px;
-  }
+	min-height: 100%;
+}
+
+body {
+	position: relative;
+	min-height: 100vh;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url("../assets/images/background.jpeg") no-repeat center center / cover;
+  filter: blur(8px);
+  z-index: -1;
+}
+
 
 html, body {
 	scroll-behavior: smooth;
 }
-
 
 label.logo{
 
