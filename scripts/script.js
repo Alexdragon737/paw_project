@@ -25,28 +25,28 @@ if (icon && navList) {
 
 // Image preloading logic 
 const shared = [
-    'assets/images/background.jpeg',
+    'assets/images/common/background.jpeg',
     'assets/images/team/common/bg-pattern-card.svg'
 ];
 
 const imagesByPage = {
     'index.html': [
         shared[0],
-        'assets/images/logo.v1.png',
-        'assets/images/politehnica.jpg',
-        'assets/images/service.png',
+        'assets/images/home/logo.v1.png',
+        'assets/images/home/politehnica.jpg',
+        'assets/images/home/service.png',
     ],
     '../team.html': [
         shared[0],
-        'assets/images/steaua.jpg',
-        'assets/images/engineers.jpg',
-        'assets/images/league.jpg',
+        'assets/images/team/steaua.jpg',
+        'assets/images/team/engineers.jpg',
+        'assets/images/team/league.jpg',
     ],
     '../services.html': [
         shared[0],
-        'assets/images/laptop.png',
-        'assets/images/pc.png',
-        'assets/images/smartphone.png'
+        'assets/images/services/laptop.png',
+        'assets/images/services/pc.png',
+        'assets/images/services/smartphone.png'
     ],
     '../team/coman.html': [
         ...shared,
