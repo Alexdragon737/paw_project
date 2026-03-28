@@ -1,0 +1,7 @@
+# Protect the CODEOWNERS file itself
+.github/CODEOWNERS          @Alexdragon737
+# Rest of your rules
+*                           @Alexdragon737 @dellikZ @AlexAlexandru13
+style/                      @Alexdragon737 @dellikZ @AlexAlexandru13
+scripts/                    @Alexdragon737 @dellikZ @AlexAlexandru13
+assets/                     @Alexdragon737 @dellikZ @AlexAlexandru13
