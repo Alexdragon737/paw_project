@@ -4,8 +4,9 @@
       <meta charset="utf-8">
       <title>Servicii</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta charset="utf-8">
       <link rel="stylesheet" href="../style/style.css">
+      <link rel="icon" href="../assets/icons/wrench-solid-full.svg">
+      <script src="../scripts/script.js" defer/></script>
    </head>
    <body>
       <header class="wrapper">
@@ -22,9 +23,9 @@
                      <input type="checkbox" id="show-features">
                      <label for="show-features">Services</label>
                      <ul>
-                        <li><a href="laptop.html">Laptopuri</a></li>
-                        <li><a href="pc.html">Calculatoare</a></li>
-                        <li><a href="smart.html">Telefoane</a></li>
+                        <li><a href="services/laptop.html">Laptopuri</a></li>
+                        <li><a href="services/pc.html">Calculatoare</a></li>
+                        <li><a href="services/smart.html">Telefoane</a></li>
                      </ul>
                   </li>
                   <li>
@@ -32,9 +33,9 @@
                      <input type="checkbox" id="show-services">
                      <label for="show-services">Echipa</label>
                      <ul>
-                        <li><a href="team/soare/soare.html">Soare Alexandru</a></li>
-                        <li><a href="team/rares/rares.html">Gheorghe Rares</a></li>
-                        <li><a href="team/coman/coman.html">Coman Alexandru</a></li>
+                        <li><a href="team/soare.html">Soare Alexandru</a></li>
+                        <li><a href="team/rares.html">Gheorghe Rares</a></li>
+                        <li><a href="team/coman.html">Coman Alexandru</a></li>
                      </ul>
                   </li>
                   <li><a href="contact.html">Contact</a></li>
@@ -48,23 +49,11 @@
          <p class="services-parap">Service-ul nostru ofera tot ceea ce ai nevoie pentru intretinerea si reparatia dispozitivelor pe care cu totii le folosim in viata de zi cu zi. Nu conteaza daca e smarthphone, PC sau Laptop. Puteti vedea in detaliu serviciile noastre dand un click pe poza cu dispozitivul dorit.</p>
          <br>
          <div class="services-images">
-            <a href="../pages/laptop.html"><img src="../images/laptop.png" alt="picture of a laptop" class="services-img-laptop"></a>
-            <a href="../pages/pc.html"><img src="../images/pc.png" alt="picture of a PC" class="services-img-pc"></a>
-            <a href="../pages/smart.html"><img src="../images/smartphone.png" alt="picture of a smartphone" class="services-img-smart"></a>
+            <a href="../pages/services/laptop.html"><img src="../assets/images/services/laptop.png" alt="picture of a laptop" class="services-img-laptop"></a>
+            <a href="../pages/services/pc.html"><img src="../assets/images/services/pc.png" alt="picture of a PC" class="services-img-pc"></a>
+            <a href="../pages/services/smart.html"><img src="../assets/images/services/smartphone.png" alt="picture of a smartphone" class="services-img-smart"></a>
       </div>
       </div>
-      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-      <script src="../scripts/script.js"></script>       
-      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-      <script>$(document).ready(function(){
-         $('#icon').click(function(){
-         
-           $('ul').toggleClass('show')
-         
-           });
-         
-         });
-      </script>
+      <button id="myBtn" title="Go to top">Top</button>
    </body>
 </html>

@@ -4,8 +4,10 @@
       <meta charset="utf-8">
       <title>Echipa</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta charset="utf-8">
       <link rel="stylesheet" href="../style/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+      <link rel="icon" href="../assets/icons/wrench-solid-full.svg">
+      <script src="../scripts/script.js" defer></script>
    </head>
    <body>
       <header class="wrapper">
@@ -22,9 +24,9 @@
                      <input type="checkbox" id="show-features">
                      <label for="show-features">Services</label>
                      <ul>
-                        <li><a href="laptop.html">Laptopuri</a></li>
-                        <li><a href="pc.html">Calculatoare</a></li>
-                        <li><a href="smart.html">Telefoane</a></li>
+                        <li><a href="services/laptop.html">Laptopuri</a></li>
+                        <li><a href="services/pc.html">Calculatoare</a></li>
+                        <li><a href="services/smart.html">Telefoane</a></li>
                      </ul>
                   </li>
                   <li>
@@ -32,9 +34,9 @@
                      <input type="checkbox" id="show-services">
                      <label for="show-services">Echipa</label>
                      <ul>
-                        <li><a href="team/soare/soare.html">Soare Alexandru</a></li>
-                        <li><a href="team/rares/rares.html">Gheorghe Rares</a></li>
-                        <li><a href="team/coman/coman.html">Coman Alexandru</a></li>
+                        <li><a href="team/soare.html">Soare Alexandru</a></li>
+                        <li><a href="team/rares.html">Gheorghe Rares</a></li>
+                        <li><a href="team/coman.html">Coman Alexandru</a></li>
                      </ul>
                   </li>
                   <li><a href="contact.html">Contact</a></li>
@@ -46,9 +48,9 @@
       <div class="team-box">
          <h1 class="team-headings">De ce este nevoie de o echipa?</h1>
          <div class="team-images">
-            <img src="../images/steaua.jpg" alt="steaua footbal club">
-            <img src="../images/engineers.jpg" alt="engineers team">
-            <img src="../images/league.jpg" alt="league of legends team">
+            <img src="../assets/images/team/steaua.jpg" alt="steaua footbal club">
+            <img src="../assets/images/team/engineers.jpg" alt="engineers team">
+            <img src="../assets/images/team/league.jpg" alt="league of legends team">
          </div>
          <div class="par-box">
             <p class="team-parap">
@@ -56,40 +58,9 @@
             </p>
          </div>
          <form>
-            <button formaction="../pages/team/coman/coman.html" class="team-button">Apasa aici!</button>
+            <button formaction="../pages/team/coman.html" class="team-button">Apasa aici!</button>
           </form>
    </div>
-      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-      <script src="../scripts/script.js"></script>       
-      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-      <script>$(document).ready(function(){
-         $('#icon').click(function(){
-         
-           $('ul').toggleClass('show')
-         
-           });
-         
-         });
-      </script>
-   <script type="text/javascript">
-
-      var images = new Array();
-      
-      function preloadImages(){
-      
-          for (i=0; i < preloadImages.arguments.length; i++){
-      
-               images[i] = new Image();
-      
-              images[i].src = preloadImages.arguments[i];
-      
-          }
-      
-      }
-      
-      preloadImages("steaua.jpg", "engineers.jpg", "league.jpg", "background.jpeg");
-      
-      </script>
+      <button id="myBtn" title="Go to top">Top</button>
    </body>
 </html>

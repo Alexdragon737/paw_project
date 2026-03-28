@@ -7,6 +7,30 @@
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
 }
+
+html {
+	min-height: 100%;
+}
+
+body {
+	position: relative;
+	min-height: 100vh;
+}
+
+body::before {
+	content: "";
+	position: fixed;
+	inset: 0;
+	background: url("../assets/images/common/background.jpeg") no-repeat center center / cover;
+	filter: blur(8px);
+	z-index: -1;
+}
+
+
+html, body {
+	scroll-behavior: smooth;
+}
+
 .wrapper{
   background: turquoise;
   position: fixed;
@@ -227,7 +251,6 @@ nav .content .links{
 }
 
 .container{
-  text-color: white;
   width: 400px;
   height: 490px;
   background-color: white;
@@ -235,7 +258,7 @@ nav .content .links{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-    background-image: url('bg-pattern-card.svg');
+    background-image: url('../assets/images/team/common/bg-pattern-card.svg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
