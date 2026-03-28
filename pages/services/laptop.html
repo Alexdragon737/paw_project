@@ -1,72 +1,64 @@
 <!DOCTYPE html>
 <html lang="ro">
-   <head>
-      <meta charset="utf-8">
-      <title>Servicii</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta charset="utf-8">
-      <link rel="stylesheet" href="../../style/style.css">
-   </head>
-   <body>
-      <header class="wrapper">
-         <nav>
-            <input type="checkbox" id="show-search">
-            <input type="checkbox" id="show-menu">
-            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
-            <div class="content">
-               <div class="logo"><a href="../../index.html">SCG Computers</a></div>
-               <ul class="links">
-                  <li><a href="../../index.html">Home</a></li>
-                  <li>
-                     <a href="../services.html" class="desktop-link">Servicii</a>
-                     <input type="checkbox" id="show-features">
-                     <label for="show-features">Services</label>
-                     <ul>
-                        <li><a href="laptop.html">Laptopuri</a></li>
-                        <li><a href="pc.html">Calculatoare</a></li>
-                        <li><a href="smart.html">Telefoane</a></li>
-                     </ul>
-                  </li>
-                  <li>
-                     <a href="../team.html" class="desktop-link">Echipa</a>
-                     <input type="checkbox" id="show-services">
-                     <label for="show-services">Echipa</label>
-                     <ul>
-                        <li><a href="../team/soare.html">Soare Alexandru</a></li>
-                        <li><a href="../team/rares.html">Gheorghe Rares</a></li>
-                        <li><a href="../team/coman.html">Coman Alexandru</a></li>
-                     </ul>
-                  </li>
-                  <li><a href="../contact.html">Contact</a></li>
-               </ul>
-            </div>
-         </nav>
-      </header>
-      <br><br><br><br><br>
 
-      <div class="services-subpages">
-         <h1 class="headings">Pentru laptopuri oferim:</h1>
-         <ul>
-            <li>Curatare de praf</li>
-            <li>Inlocuire componente usor schimbabile, dar si a celor mai dificil de schimbat</li>
-            <li>Update BIOS/UEFI</li>
-            <li>Indepartare stickere</li>
-            <li>Achizitionare componente cu garantie oferita de noi</li>
-         </ul>
-      </div>
-      
-      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-      <script src="../scripts/script.js"></script>       
-      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-      <script>$(document).ready(function(){
-         $('#icon').click(function(){
-         
-           $('ul').toggleClass('show')
-         
-           });
-         
-         });
-      </script>
-   </body>
+<head>
+   <meta charset="utf-8">
+   <title>Servicii</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="../../style/style.css">
+   <script src="../../scripts/script.js" defer></script>
+</head>
+
+<body>
+   <header class="wrapper">
+      <nav>
+         <input type="checkbox" id="show-search">
+         <input type="checkbox" id="show-menu">
+         <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+         <div class="content">
+            <div class="logo"><a href="../../index.html">SCG Computers</a></div>
+            <ul class="links">
+               <li><a href="../../index.html">Home</a></li>
+               <li>
+                  <a href="../services.html" class="desktop-link">Servicii</a>
+                  <input type="checkbox" id="show-features">
+                  <label for="show-features">Services</label>
+                  <ul>
+                     <li><a href="laptop.html">Laptopuri</a></li>
+                     <li><a href="pc.html">Calculatoare</a></li>
+                     <li><a href="smart.html">Telefoane</a></li>
+                  </ul>
+               </li>
+               <li>
+                  <a href="../team.html" class="desktop-link">Echipa</a>
+                  <input type="checkbox" id="show-services">
+                  <label for="show-services">Echipa</label>
+                  <ul>
+                     <li><a href="../team/soare.html">Soare Alexandru</a></li>
+                     <li><a href="../team/rares.html">Gheorghe Rares</a></li>
+                     <li><a href="../team/coman.html">Coman Alexandru</a></li>
+                  </ul>
+               </li>
+               <li><a href="../contact.html">Contact</a></li>
+            </ul>
+         </div>
+      </nav>
+   </header>
+   <br><br><br><br><br>
+
+   <div class="services-subpages">
+      <h1 class="headings">Pentru laptopuri oferim:</h1>
+      <ul>
+         <li>Curatare de praf</li>
+         <li>Inlocuire componente usor schimbabile, dar si a celor mai dificil de schimbat</li>
+         <li>Update BIOS/UEFI</li>
+         <li>Indepartare stickere</li>
+         <li>Achizitionare componente cu garantie oferita de noi</li>
+      </ul>
+   </div>
+   <button id="myBtn" title="Go to top">Top</button>
+   </script>
+</body>
+
 </html>
